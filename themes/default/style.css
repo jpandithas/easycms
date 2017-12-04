@@ -1,0 +1,127 @@
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: azure;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+#site-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 7px solid lightgray;
+    box-shadow: 0px 0px 7px  7px gray;
+}
+
+#header {
+    height: 20%;
+    min-height: 100px;
+    background-color: aquamarine;
+}
+
+#inner {
+    min-height: 200px;
+    overflow: hidden;
+}
+
+#sidebar-left {
+    width: 20%;
+     min-height: 250px;
+    background-color: antiquewhite;
+    float: left;
+    display: block;
+    overflow: auto;
+}
+
+ul#main_navi_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #A5B5C6;
+}
+
+ul#main_navi_menu li {
+    list-style: none;
+    border-top: 1px solid lightgray;
+}
+
+#theme_selection {
+    width: 95%;
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #39438b;
+    border-bottom: 1px solid gray;
+}
+
+tr {
+    padding: 0px;
+    border-bottom: 1px solid gray;
+}
+
+td {
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+tr:hover {
+    background-color: #00abff;
+}
+
+ul#main_navi_menu li a:link, ul#main_navi_menu li a:visited {
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+ul#main_navi_menu li a:hover{
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    font-weight: bold;
+    color: orange;
+    background-color: #f7ccfa;
+}
+
+#content {
+    width: 80%;
+    min-height: 300px;
+    background-color: lightskyblue;
+    float:right;
+    display: block;
+}
+
+#content * {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#footer {
+    min-height: 120px;
+    display: block;
+    background-color: chartreuse;
+    clear: both;
+}
